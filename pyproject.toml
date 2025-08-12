@@ -1,3 +1,13 @@
 [project]
 name = "example-pyproject"
-version = "0.0.1"
+version = "0.0.1a1"
+license-files = ["LICENSE.txt"]
+authors = [
+  {name = "Lucio Queiroz", email = "luciorqueiroz@gmail.com"}
+]
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools",
+]
